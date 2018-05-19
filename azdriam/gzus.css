@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+
+body { background-color:snow;
+            background-size:1250px; }  
+	header,nav,footer { border : black;
+	                           font-family:Arial;
+                              margin: 100px; }	
+
+.titulop {font-size: 100px;
+        text-transform:uppercase;
+        font-weight: normal;
+        color:black;
+}
+
+ul li { text-transform: uppercase;
+    display: inline;
+    padding: 10px;    
+        }
+ul li a:hover {background-color:darkblue;
+            color: red;
+            padding:10px;}
+
+aside {
+    width:auto;
+    float: right;
+    }
+    
+footer{clear: both;
+       background-color: gray;
+    
+}
